@@ -1,0 +1,43 @@
+.home {
+    background-image: url(/images/beautiful-sunrise-horizon-with-tall-mountains-snowy-hills-amazing-dark-sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-block: 10rem 15rem;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+.home-title span:hover {
+    color: var(--color-hover-border);
+    transition: color 0.2s ease;
+}   
+.home-title {
+    font-size: 2rem;
+}
+.home-desc {
+    color: var(--color-font-title);
+    font-size: 1.3rem;
+    line-height: 150%;
+    font-weight: 400;
+    padding-inline: 20rem;
+}
+.home-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.home-options-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.home-options-social-list-item :hover {
+    color: var(--color-hover-border);
+    transition: color 0.2s ease;
+}
+

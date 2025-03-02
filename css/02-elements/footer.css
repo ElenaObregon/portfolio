@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    flex-direction: column;
+}
+.footer-title {
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+    color: var(--color-font-title);
+}
+.footer-copyright{
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+    color: var(--color-font-title);
+    margin-top: 2rem;
+}

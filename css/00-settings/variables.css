@@ -1,0 +1,14 @@
+
+:root{
+    --font-title: "Montserrat", sans-serif;
+    --font-text: "Cabin", sans-serif;
+
+    --color-bg-body: #1a1a1a;
+    --color-bg-container: #292929;
+    --color-font-title: #EEEEEE;
+    --color-font-title-white: white;
+    --color-font-text: #EEEEEE;
+    --color-button: #9B6D9B;
+    --color-hover-border: #9b59b6;
+    --color-rgba: rgba(155, 89, 182, 0.15);
+}

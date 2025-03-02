@@ -1,0 +1,55 @@
+.proyects {
+    padding-block: 5rem 7rem;
+}
+.proyects-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 150%;
+    position: relative;
+    z-index: 2;
+    margin-block-end: 6rem;
+}
+.proyects-title::before {
+    content:" </>";
+    color: var(--color-hover-border);
+    font-size: 2rem;
+}
+.proyects-title::after {
+    content: "</>Proyectos";
+    position: absolute;
+    color: var(--color-rgba);
+    font-size: 6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    z-index: -1;
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
+.proyects-list {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-block-start: 6rem;
+}
+.proyects-list-item {
+    background-color: var(--color-bg-container);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.proyects-list-item:hover {
+    transform: scale(1.18);
+}
+.proyects-list-item-img {
+    width: 15.625rem;
+    height: 12.5rem;
+    object-fit: contain;
+}

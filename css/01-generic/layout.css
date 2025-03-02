@@ -1,0 +1,41 @@
+body {
+    background-color: #1a1a1a;
+}
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+footer{
+    background-color: var(--color-bg-header-footer);
+}
+.container {
+    max-width: 85rem;
+    margin: 0 auto;
+    padding-inline: 1rem;
+}
+button {
+    background-color: var(--color-bg-button);
+    color: var(--color-font-button);
+    border: 1px solid var(--color-line-button);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--color-font-title);
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: var(--font-title);
+    font-weight: 600;
+    color: var(--color-font-title);
+}
+p {
+    font-family: var(--font-text);
+    color: var(--color-font-text);
+    font-size: 1 rem;
+    line-height: 150%;
+}
